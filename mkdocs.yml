@@ -1,0 +1,51 @@
+site_name: "TB3 Demo"
+plugins:
+- search:
+- simple:
+include_folders:
+- '*'
+ignore_folders: []
+ignore_hidden: true
+merge_docs_dir: true
+build_docs_dir: ''
+include_extensions:
+- .bmp
+- .tif
+- .tiff
+- .gif
+- .svg
+- .jpeg
+- .jpg
+- .jif
+- .jiff
+- .jp2
+- .jpx
+- .j2k
+- .j2c
+- .fpx
+- .pcd
+- .png
+- .pdf
+- CNAME
+- .snippet
+- .pages
+semiliterate:
+- pattern: .*
+  terminate: ^\W*md-ignore
+  extract:
+  - start: ^\s*"""\W?md\b
+    stop: ^\s*"""\s*$
+  - start: ^\s*#+\W?md\b
+    stop: ^\s*#\s?\/md\s*$
+    replace:
+    - ^\s*# ?(.*\n?)$
+    - ^.*$
+  - start: ^\s*/\*+\W?md\b
+    stop: ^\s*\*\*/\s*$
+  - start: ^\s*\/\/+\W?md\b
+    stop: ^\s*\/\/\send\smd\s*$
+    replace:
+    - ^\s*\/\/\s?(.*\n?)$
+    - ^.*$
+  - start: <!--\W?md\b
+    stop: -->\s*$
