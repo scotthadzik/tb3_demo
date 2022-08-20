@@ -14,7 +14,7 @@ jobs:
           # (optional) The name of the site
           site_name: owner/repository 
           # (optional) The URL of the site
-          # site_url: https://owner.github.io/repository 
+          site_url: https://scotthadzik.github.io/tb3_demo
           # (optional) The edit URI
           edit_uri: edit/main/
           # (optional) Specify a google analytics key 
