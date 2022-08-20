@@ -1,7 +1,7 @@
 prefix=/home/scott/tb3_demo/catkin_ws/devel
 
-Name: tb3_demo_msgs
-Description: Description of tb3_demo_msgs
+Name: tb3_msgs
+Description: Description of tb3_msgs
 Version: 1.1.0
 Cflags: -I/home/scott/tb3_demo/catkin_ws/devel/include
 Libs: -L${prefix}/lib 

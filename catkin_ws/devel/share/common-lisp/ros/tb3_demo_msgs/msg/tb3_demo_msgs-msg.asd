@@ -1,7 +1,7 @@
 
 (cl:in-package :asdf)
 
-(defsystem "tb3_demo_msgs-msg"
+(defsystem "tb3_msgs-msg"
   :depends-on (:roslisp-msg-protocol :roslisp-utils )
   :components ((:file "_package")
     (:file "MovingParam" :depends-on ("_package_MovingParam"))

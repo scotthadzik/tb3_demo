@@ -1,47 +1,47 @@
 ;; Auto-generated. Do not edit!
 
 
-(when (boundp 'tb3_demo_msgs::MovingParam)
-  (if (not (find-package "TB3_DEMO_MSGS"))
-    (make-package "TB3_DEMO_MSGS"))
-  (shadow 'MovingParam (find-package "TB3_DEMO_MSGS")))
-(unless (find-package "TB3_DEMO_MSGS::MOVINGPARAM")
-  (make-package "TB3_DEMO_MSGS::MOVINGPARAM"))
+(when (boundp 'tb3_msgs::MovingParam)
+  (if (not (find-package "tb3_MSGS"))
+    (make-package "tb3_MSGS"))
+  (shadow 'MovingParam (find-package "tb3_MSGS")))
+(unless (find-package "tb3_MSGS::MOVINGPARAM")
+  (make-package "tb3_MSGS::MOVINGPARAM"))
 
 (in-package "ROS")
 ;;//! \htmlinclude MovingParam.msg.html
 
 
-(intern "*MOVING_TYPE_IDLE*" (find-package "TB3_DEMO_MSGS::MOVINGPARAM"))
-(shadow '*MOVING_TYPE_IDLE* (find-package "TB3_DEMO_MSGS::MOVINGPARAM"))
-(defconstant tb3_demo_msgs::MovingParam::*MOVING_TYPE_IDLE* 0)
-(intern "*MOVING_TYPE_LEFT*" (find-package "TB3_DEMO_MSGS::MOVINGPARAM"))
-(shadow '*MOVING_TYPE_LEFT* (find-package "TB3_DEMO_MSGS::MOVINGPARAM"))
-(defconstant tb3_demo_msgs::MovingParam::*MOVING_TYPE_LEFT* 1)
-(intern "*MOVING_TYPE_RIGHT*" (find-package "TB3_DEMO_MSGS::MOVINGPARAM"))
-(shadow '*MOVING_TYPE_RIGHT* (find-package "TB3_DEMO_MSGS::MOVINGPARAM"))
-(defconstant tb3_demo_msgs::MovingParam::*MOVING_TYPE_RIGHT* 2)
-(intern "*MOVING_TYPE_FORWARD*" (find-package "TB3_DEMO_MSGS::MOVINGPARAM"))
-(shadow '*MOVING_TYPE_FORWARD* (find-package "TB3_DEMO_MSGS::MOVINGPARAM"))
-(defconstant tb3_demo_msgs::MovingParam::*MOVING_TYPE_FORWARD* 3)
-(intern "*MOVING_TYPE_BACKWARD*" (find-package "TB3_DEMO_MSGS::MOVINGPARAM"))
-(shadow '*MOVING_TYPE_BACKWARD* (find-package "TB3_DEMO_MSGS::MOVINGPARAM"))
-(defconstant tb3_demo_msgs::MovingParam::*MOVING_TYPE_BACKWARD* 4)
+(intern "*MOVING_TYPE_IDLE*" (find-package "tb3_MSGS::MOVINGPARAM"))
+(shadow '*MOVING_TYPE_IDLE* (find-package "tb3_MSGS::MOVINGPARAM"))
+(defconstant tb3_msgs::MovingParam::*MOVING_TYPE_IDLE* 0)
+(intern "*MOVING_TYPE_LEFT*" (find-package "tb3_MSGS::MOVINGPARAM"))
+(shadow '*MOVING_TYPE_LEFT* (find-package "tb3_MSGS::MOVINGPARAM"))
+(defconstant tb3_msgs::MovingParam::*MOVING_TYPE_LEFT* 1)
+(intern "*MOVING_TYPE_RIGHT*" (find-package "tb3_MSGS::MOVINGPARAM"))
+(shadow '*MOVING_TYPE_RIGHT* (find-package "tb3_MSGS::MOVINGPARAM"))
+(defconstant tb3_msgs::MovingParam::*MOVING_TYPE_RIGHT* 2)
+(intern "*MOVING_TYPE_FORWARD*" (find-package "tb3_MSGS::MOVINGPARAM"))
+(shadow '*MOVING_TYPE_FORWARD* (find-package "tb3_MSGS::MOVINGPARAM"))
+(defconstant tb3_msgs::MovingParam::*MOVING_TYPE_FORWARD* 3)
+(intern "*MOVING_TYPE_BACKWARD*" (find-package "tb3_MSGS::MOVINGPARAM"))
+(shadow '*MOVING_TYPE_BACKWARD* (find-package "tb3_MSGS::MOVINGPARAM"))
+(defconstant tb3_msgs::MovingParam::*MOVING_TYPE_BACKWARD* 4)
 
-(defun tb3_demo_msgs::MovingParam-to-symbol (const)
+(defun tb3_msgs::MovingParam-to-symbol (const)
   (cond
-        ((= const 0) 'tb3_demo_msgs::MovingParam::*MOVING_TYPE_IDLE*)
-        ((= const 1) 'tb3_demo_msgs::MovingParam::*MOVING_TYPE_LEFT*)
-        ((= const 2) 'tb3_demo_msgs::MovingParam::*MOVING_TYPE_RIGHT*)
-        ((= const 3) 'tb3_demo_msgs::MovingParam::*MOVING_TYPE_FORWARD*)
-        ((= const 4) 'tb3_demo_msgs::MovingParam::*MOVING_TYPE_BACKWARD*)
+        ((= const 0) 'tb3_msgs::MovingParam::*MOVING_TYPE_IDLE*)
+        ((= const 1) 'tb3_msgs::MovingParam::*MOVING_TYPE_LEFT*)
+        ((= const 2) 'tb3_msgs::MovingParam::*MOVING_TYPE_RIGHT*)
+        ((= const 3) 'tb3_msgs::MovingParam::*MOVING_TYPE_FORWARD*)
+        ((= const 4) 'tb3_msgs::MovingParam::*MOVING_TYPE_BACKWARD*)
         (t nil)))
 
-(defclass tb3_demo_msgs::MovingParam
+(defclass tb3_msgs::MovingParam
   :super ros::object
   :slots (_moving_type _moving_value_angular _moving_value_linear ))
 
-(defmethod tb3_demo_msgs::MovingParam
+(defmethod tb3_msgs::MovingParam
   (:init
    (&key
     ((:moving_type __moving_type) 0)
@@ -96,9 +96,9 @@
    self)
   )
 
-(setf (get tb3_demo_msgs::MovingParam :md5sum-) "603d953881321b4196ac96fba411105f")
-(setf (get tb3_demo_msgs::MovingParam :datatype-) "tb3_demo_msgs/MovingParam")
-(setf (get tb3_demo_msgs::MovingParam :definition-)
+(setf (get tb3_msgs::MovingParam :md5sum-) "603d953881321b4196ac96fba411105f")
+(setf (get tb3_msgs::MovingParam :datatype-) "tb3_msgs/MovingParam")
+(setf (get tb3_msgs::MovingParam :definition-)
       "########################################
 # CONSTANTS
 ########################################
@@ -118,6 +118,6 @@ float32 moving_value_linear
 
 
 
-(provide :tb3_demo_msgs/MovingParam "603d953881321b4196ac96fba411105f")
+(provide :tb3_msgs/MovingParam "603d953881321b4196ac96fba411105f")
 
 

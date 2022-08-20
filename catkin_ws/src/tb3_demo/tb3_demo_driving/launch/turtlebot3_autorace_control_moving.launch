@@ -1,4 +1,0 @@
-<launch>
-  <node pkg="tb3_demo_driving" type="control_moving" name="control_moving" output="screen">
-  </node>
-</launch>

@@ -1,6 +1,6 @@
 // Auto-generated. Do not edit!
 
-// (in-package tb3_demo_msgs.msg)
+// (in-package tb3_msgs.msg)
 
 
 "use strict";
@@ -74,7 +74,7 @@ class MovingParam {
 
   static datatype() {
     // Returns string type for a message object
-    return 'tb3_demo_msgs/MovingParam';
+    return 'tb3_msgs/MovingParam';
   }
 
   static md5sum() {

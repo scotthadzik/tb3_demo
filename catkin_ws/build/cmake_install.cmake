@@ -132,11 +132,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/scott/tb3_demo/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo/cmake_install.cmake")
-  include("/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo_core/cmake_install.cmake")
-  include("/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo_msgs/cmake_install.cmake")
-  include("/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo_driving/cmake_install.cmake")
-  include("/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo_camera/cmake_install.cmake")
-  include("/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo_detect/cmake_install.cmake")
+  include("/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_core/cmake_install.cmake")
+  include("/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_msgs/cmake_install.cmake")
+  include("/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_driving/cmake_install.cmake")
+  include("/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_camera/cmake_install.cmake")
+  include("/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_detect/cmake_install.cmake")
 
 endif()
 

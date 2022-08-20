@@ -1,7 +1,7 @@
 ; Auto-generated. Do not edit!
 
 
-(cl:in-package tb3_demo_msgs-msg)
+(cl:in-package tb3_msgs-msg)
 
 
 ;//! \htmlinclude MovingParam.msg.html
@@ -30,21 +30,21 @@
 (cl:defmethod cl:initialize-instance :after ((m <MovingParam>) cl:&rest args)
   (cl:declare (cl:ignorable args))
   (cl:unless (cl:typep m 'MovingParam)
-    (roslisp-msg-protocol:msg-deprecation-warning "using old message class name tb3_demo_msgs-msg:<MovingParam> is deprecated: use tb3_demo_msgs-msg:MovingParam instead.")))
+    (roslisp-msg-protocol:msg-deprecation-warning "using old message class name tb3_msgs-msg:<MovingParam> is deprecated: use tb3_msgs-msg:MovingParam instead.")))
 
 (cl:ensure-generic-function 'moving_type-val :lambda-list '(m))
 (cl:defmethod moving_type-val ((m <MovingParam>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader tb3_demo_msgs-msg:moving_type-val is deprecated.  Use tb3_demo_msgs-msg:moving_type instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader tb3_msgs-msg:moving_type-val is deprecated.  Use tb3_msgs-msg:moving_type instead.")
   (moving_type m))
 
 (cl:ensure-generic-function 'moving_value_angular-val :lambda-list '(m))
 (cl:defmethod moving_value_angular-val ((m <MovingParam>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader tb3_demo_msgs-msg:moving_value_angular-val is deprecated.  Use tb3_demo_msgs-msg:moving_value_angular instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader tb3_msgs-msg:moving_value_angular-val is deprecated.  Use tb3_msgs-msg:moving_value_angular instead.")
   (moving_value_angular m))
 
 (cl:ensure-generic-function 'moving_value_linear-val :lambda-list '(m))
 (cl:defmethod moving_value_linear-val ((m <MovingParam>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader tb3_demo_msgs-msg:moving_value_linear-val is deprecated.  Use tb3_demo_msgs-msg:moving_value_linear instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader tb3_msgs-msg:moving_value_linear-val is deprecated.  Use tb3_msgs-msg:moving_value_linear instead.")
   (moving_value_linear m))
 (cl:defmethod roslisp-msg-protocol:symbol-codes ((msg-type (cl:eql '<MovingParam>)))
     "Constants for message type '<MovingParam>"
@@ -95,10 +95,10 @@
 )
 (cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<MovingParam>)))
   "Returns string type for a message object of type '<MovingParam>"
-  "tb3_demo_msgs/MovingParam")
+  "tb3_msgs/MovingParam")
 (cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql 'MovingParam)))
   "Returns string type for a message object of type 'MovingParam"
-  "tb3_demo_msgs/MovingParam")
+  "tb3_msgs/MovingParam")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<MovingParam>)))
   "Returns md5sum for a message object of type '<MovingParam>"
   "603d953881321b4196ac96fba411105f")

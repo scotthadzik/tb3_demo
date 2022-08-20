@@ -474,43 +474,43 @@ rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
 //Value Computed by CMake
-tb3_demo_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo
+tb3_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo
 
 //Value Computed by CMake
-tb3_demo_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_demo
+tb3_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_demo
 
 //Value Computed by CMake
-tb3_demo_camera_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo_camera
+tb3_camera_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_camera
 
 //Value Computed by CMake
-tb3_demo_camera_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_demo_camera
+tb3_camera_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_camera
 
 //Value Computed by CMake
-tb3_demo_core_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo_core
+tb3_core_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_core
 
 //Value Computed by CMake
-tb3_demo_core_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_demo_core
+tb3_core_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_core
 
 //Value Computed by CMake
-tb3_demo_detect_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo_detect
+tb3_detect_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_detect
 
 //Value Computed by CMake
-tb3_demo_detect_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_demo_detect
+tb3_detect_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_detect
 
 //Value Computed by CMake
-tb3_demo_driving_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo_driving
+tb3_driving_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_driving
 
 //Value Computed by CMake
-tb3_demo_driving_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_demo_driving
+tb3_driving_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_driving
 
 //Value Computed by CMake
-tb3_demo_msgs_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_demo_msgs
+tb3_msgs_BINARY_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/build/tb3_demo/tb3_msgs
 
-//The directory containing a CMake configuration file for tb3_demo_msgs.
-tb3_demo_msgs_DIR:PATH=/home/scott/tb3_demo/catkin_ws/devel/share/tb3_demo_msgs/cmake
+//The directory containing a CMake configuration file for tb3_msgs.
+tb3_msgs_DIR:PATH=/home/scott/tb3_demo/catkin_ws/devel/share/tb3_msgs/cmake
 
 //Value Computed by CMake
-tb3_demo_msgs_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_demo_msgs
+tb3_msgs_SOURCE_DIR:STATIC=/home/scott/tb3_demo/catkin_ws/src/tb3_demo/tb3_msgs
 
 
 ########################

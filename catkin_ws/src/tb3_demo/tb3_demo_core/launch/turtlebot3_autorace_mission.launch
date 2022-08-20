@@ -1,3 +1,0 @@
-<launch>
-   <node pkg="tb3_demo_core" type="core_node_mission" name="core_node_mission" output="screen" />
-</launch>

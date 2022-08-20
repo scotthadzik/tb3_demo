@@ -298,43 +298,43 @@ _catkin_empty_exported_target/fast:
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_msgs_gennodejs
+# Target rules for targets named tb3_msgs_gennodejs
 
 # Build rule for target.
-tb3_demo_msgs_gennodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_msgs_gennodejs
-.PHONY : tb3_demo_msgs_gennodejs
+tb3_msgs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_msgs_gennodejs
+.PHONY : tb3_msgs_gennodejs
 
 # fast build rule for target.
-tb3_demo_msgs_gennodejs/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_gennodejs.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_gennodejs.dir/build
-.PHONY : tb3_demo_msgs_gennodejs/fast
+tb3_msgs_gennodejs/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_gennodejs.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_gennodejs.dir/build
+.PHONY : tb3_msgs_gennodejs/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_msgs_generate_messages_py
+# Target rules for targets named tb3_msgs_generate_messages_py
 
 # Build rule for target.
-tb3_demo_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_msgs_generate_messages_py
-.PHONY : tb3_demo_msgs_generate_messages_py
+tb3_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_msgs_generate_messages_py
+.PHONY : tb3_msgs_generate_messages_py
 
 # fast build rule for target.
-tb3_demo_msgs_generate_messages_py/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages_py.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages_py.dir/build
-.PHONY : tb3_demo_msgs_generate_messages_py/fast
+tb3_msgs_generate_messages_py/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages_py.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages_py.dir/build
+.PHONY : tb3_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_msgs_genlisp
+# Target rules for targets named tb3_msgs_genlisp
 
 # Build rule for target.
-tb3_demo_msgs_genlisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_msgs_genlisp
-.PHONY : tb3_demo_msgs_genlisp
+tb3_msgs_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_msgs_genlisp
+.PHONY : tb3_msgs_genlisp
 
 # fast build rule for target.
-tb3_demo_msgs_genlisp/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_genlisp.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_genlisp.dir/build
-.PHONY : tb3_demo_msgs_genlisp/fast
+tb3_msgs_genlisp/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_genlisp.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_genlisp.dir/build
+.PHONY : tb3_msgs_genlisp/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_eus
@@ -346,7 +346,7 @@ std_msgs_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
@@ -359,7 +359,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -372,34 +372,34 @@ std_msgs_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_msgs_generate_messages
+# Target rules for targets named tb3_msgs_generate_messages
 
 # Build rule for target.
-tb3_demo_msgs_generate_messages: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_msgs_generate_messages
-.PHONY : tb3_demo_msgs_generate_messages
+tb3_msgs_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_msgs_generate_messages
+.PHONY : tb3_msgs_generate_messages
 
 # fast build rule for target.
-tb3_demo_msgs_generate_messages/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages.dir/build
-.PHONY : tb3_demo_msgs_generate_messages/fast
+tb3_msgs_generate_messages/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages.dir/build
+.PHONY : tb3_msgs_generate_messages/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_msgs_genpy
+# Target rules for targets named tb3_msgs_genpy
 
 # Build rule for target.
-tb3_demo_msgs_genpy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_msgs_genpy
-.PHONY : tb3_demo_msgs_genpy
+tb3_msgs_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_msgs_genpy
+.PHONY : tb3_msgs_genpy
 
 # fast build rule for target.
-tb3_demo_msgs_genpy/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_genpy.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_genpy.dir/build
-.PHONY : tb3_demo_msgs_genpy/fast
+tb3_msgs_genpy/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_genpy.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_genpy.dir/build
+.PHONY : tb3_msgs_genpy/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
@@ -411,86 +411,86 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_msgs_generate_messages_lisp
+# Target rules for targets named tb3_msgs_generate_messages_lisp
 
 # Build rule for target.
-tb3_demo_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_msgs_generate_messages_lisp
-.PHONY : tb3_demo_msgs_generate_messages_lisp
+tb3_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_msgs_generate_messages_lisp
+.PHONY : tb3_msgs_generate_messages_lisp
 
 # fast build rule for target.
-tb3_demo_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages_lisp.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages_lisp.dir/build
-.PHONY : tb3_demo_msgs_generate_messages_lisp/fast
+tb3_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages_lisp.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages_lisp.dir/build
+.PHONY : tb3_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_msgs_generate_messages_nodejs
+# Target rules for targets named tb3_msgs_generate_messages_nodejs
 
 # Build rule for target.
-tb3_demo_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_msgs_generate_messages_nodejs
-.PHONY : tb3_demo_msgs_generate_messages_nodejs
+tb3_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_msgs_generate_messages_nodejs
+.PHONY : tb3_msgs_generate_messages_nodejs
 
 # fast build rule for target.
-tb3_demo_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages_nodejs.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages_nodejs.dir/build
-.PHONY : tb3_demo_msgs_generate_messages_nodejs/fast
+tb3_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages_nodejs.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages_nodejs.dir/build
+.PHONY : tb3_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named _tb3_demo_msgs_generate_messages_check_deps_MovingParam
+# Target rules for targets named _tb3_msgs_generate_messages_check_deps_MovingParam
 
 # Build rule for target.
-_tb3_demo_msgs_generate_messages_check_deps_MovingParam: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _tb3_demo_msgs_generate_messages_check_deps_MovingParam
-.PHONY : _tb3_demo_msgs_generate_messages_check_deps_MovingParam
+_tb3_msgs_generate_messages_check_deps_MovingParam: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _tb3_msgs_generate_messages_check_deps_MovingParam
+.PHONY : _tb3_msgs_generate_messages_check_deps_MovingParam
 
 # fast build rule for target.
-_tb3_demo_msgs_generate_messages_check_deps_MovingParam/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/_tb3_demo_msgs_generate_messages_check_deps_MovingParam.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/_tb3_demo_msgs_generate_messages_check_deps_MovingParam.dir/build
-.PHONY : _tb3_demo_msgs_generate_messages_check_deps_MovingParam/fast
+_tb3_msgs_generate_messages_check_deps_MovingParam/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/_tb3_msgs_generate_messages_check_deps_MovingParam.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/_tb3_msgs_generate_messages_check_deps_MovingParam.dir/build
+.PHONY : _tb3_msgs_generate_messages_check_deps_MovingParam/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_msgs_geneus
+# Target rules for targets named tb3_msgs_geneus
 
 # Build rule for target.
-tb3_demo_msgs_geneus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_msgs_geneus
-.PHONY : tb3_demo_msgs_geneus
+tb3_msgs_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_msgs_geneus
+.PHONY : tb3_msgs_geneus
 
 # fast build rule for target.
-tb3_demo_msgs_geneus/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_geneus.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_geneus.dir/build
-.PHONY : tb3_demo_msgs_geneus/fast
+tb3_msgs_geneus/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_geneus.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_geneus.dir/build
+.PHONY : tb3_msgs_geneus/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_msgs_generate_messages_cpp
+# Target rules for targets named tb3_msgs_generate_messages_cpp
 
 # Build rule for target.
-tb3_demo_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_msgs_generate_messages_cpp
-.PHONY : tb3_demo_msgs_generate_messages_cpp
+tb3_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_msgs_generate_messages_cpp
+.PHONY : tb3_msgs_generate_messages_cpp
 
 # fast build rule for target.
-tb3_demo_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages_cpp.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages_cpp.dir/build
-.PHONY : tb3_demo_msgs_generate_messages_cpp/fast
+tb3_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages_cpp.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages_cpp.dir/build
+.PHONY : tb3_msgs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_msgs_gencpp
+# Target rules for targets named tb3_msgs_gencpp
 
 # Build rule for target.
-tb3_demo_msgs_gencpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_msgs_gencpp
-.PHONY : tb3_demo_msgs_gencpp
+tb3_msgs_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_msgs_gencpp
+.PHONY : tb3_msgs_gencpp
 
 # fast build rule for target.
-tb3_demo_msgs_gencpp/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_gencpp.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_gencpp.dir/build
-.PHONY : tb3_demo_msgs_gencpp/fast
+tb3_msgs_gencpp/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_gencpp.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_gencpp.dir/build
+.PHONY : tb3_msgs_gencpp/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_cpp
@@ -502,21 +502,21 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_msgs_generate_messages_eus
+# Target rules for targets named tb3_msgs_generate_messages_eus
 
 # Build rule for target.
-tb3_demo_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_msgs_generate_messages_eus
-.PHONY : tb3_demo_msgs_generate_messages_eus
+tb3_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_msgs_generate_messages_eus
+.PHONY : tb3_msgs_generate_messages_eus
 
 # fast build rule for target.
-tb3_demo_msgs_generate_messages_eus/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages_eus.dir/build.make tb3_demo/tb3_demo_msgs/CMakeFiles/tb3_demo_msgs_generate_messages_eus.dir/build
-.PHONY : tb3_demo_msgs_generate_messages_eus/fast
+tb3_msgs_generate_messages_eus/fast:
+	$(MAKE) -f tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages_eus.dir/build.make tb3_demo/tb3_msgs/CMakeFiles/tb3_msgs_generate_messages_eus.dir/build
+.PHONY : tb3_msgs_generate_messages_eus/fast
 
 #=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_cpp
@@ -528,7 +528,7 @@ dynamic_reconfigure_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	$(MAKE) -f tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 #=============================================================================
@@ -541,7 +541,7 @@ dynamic_reconfigure_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	$(MAKE) -f tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 #=============================================================================
@@ -554,7 +554,7 @@ dynamic_reconfigure_gencfg: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	$(MAKE) -f tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 #=============================================================================
@@ -567,7 +567,7 @@ dynamic_reconfigure_generate_messages_nodejs: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	$(MAKE) -f tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 #=============================================================================
@@ -580,21 +580,21 @@ dynamic_reconfigure_generate_messages_eus: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	$(MAKE) -f tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_camera_gencfg
+# Target rules for targets named tb3_camera_gencfg
 
 # Build rule for target.
-tb3_demo_camera_gencfg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_camera_gencfg
-.PHONY : tb3_demo_camera_gencfg
+tb3_camera_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_camera_gencfg
+.PHONY : tb3_camera_gencfg
 
 # fast build rule for target.
-tb3_demo_camera_gencfg/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_camera/CMakeFiles/tb3_demo_camera_gencfg.dir/build.make tb3_demo/tb3_demo_camera/CMakeFiles/tb3_demo_camera_gencfg.dir/build
-.PHONY : tb3_demo_camera_gencfg/fast
+tb3_camera_gencfg/fast:
+	$(MAKE) -f tb3_demo/tb3_camera/CMakeFiles/tb3_camera_gencfg.dir/build.make tb3_demo/tb3_camera/CMakeFiles/tb3_camera_gencfg.dir/build
+.PHONY : tb3_camera_gencfg/fast
 
 #=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_lisp
@@ -606,21 +606,21 @@ dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make tb3_demo/tb3_demo_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	$(MAKE) -f tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make tb3_demo/tb3_camera/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named tb3_demo_detect_gencfg
+# Target rules for targets named tb3_detect_gencfg
 
 # Build rule for target.
-tb3_demo_detect_gencfg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tb3_demo_detect_gencfg
-.PHONY : tb3_demo_detect_gencfg
+tb3_detect_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tb3_detect_gencfg
+.PHONY : tb3_detect_gencfg
 
 # fast build rule for target.
-tb3_demo_detect_gencfg/fast:
-	$(MAKE) -f tb3_demo/tb3_demo_detect/CMakeFiles/tb3_demo_detect_gencfg.dir/build.make tb3_demo/tb3_demo_detect/CMakeFiles/tb3_demo_detect_gencfg.dir/build
-.PHONY : tb3_demo_detect_gencfg/fast
+tb3_detect_gencfg/fast:
+	$(MAKE) -f tb3_demo/tb3_detect/CMakeFiles/tb3_detect_gencfg.dir/build.make tb3_demo/tb3_detect/CMakeFiles/tb3_detect_gencfg.dir/build
+.PHONY : tb3_detect_gencfg/fast
 
 # Help Target
 help:
@@ -645,31 +645,31 @@ help:
 	@echo "... gtest_main"
 	@echo "... gtest"
 	@echo "... _catkin_empty_exported_target"
-	@echo "... tb3_demo_msgs_gennodejs"
-	@echo "... tb3_demo_msgs_generate_messages_py"
-	@echo "... tb3_demo_msgs_genlisp"
+	@echo "... tb3_msgs_gennodejs"
+	@echo "... tb3_msgs_generate_messages_py"
+	@echo "... tb3_msgs_genlisp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... tb3_demo_msgs_generate_messages"
-	@echo "... tb3_demo_msgs_genpy"
+	@echo "... tb3_msgs_generate_messages"
+	@echo "... tb3_msgs_genpy"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... tb3_demo_msgs_generate_messages_lisp"
-	@echo "... tb3_demo_msgs_generate_messages_nodejs"
-	@echo "... _tb3_demo_msgs_generate_messages_check_deps_MovingParam"
-	@echo "... tb3_demo_msgs_geneus"
-	@echo "... tb3_demo_msgs_generate_messages_cpp"
-	@echo "... tb3_demo_msgs_gencpp"
+	@echo "... tb3_msgs_generate_messages_lisp"
+	@echo "... tb3_msgs_generate_messages_nodejs"
+	@echo "... _tb3_msgs_generate_messages_check_deps_MovingParam"
+	@echo "... tb3_msgs_geneus"
+	@echo "... tb3_msgs_generate_messages_cpp"
+	@echo "... tb3_msgs_gencpp"
 	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... tb3_demo_msgs_generate_messages_eus"
+	@echo "... tb3_msgs_generate_messages_eus"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... dynamic_reconfigure_generate_messages_nodejs"
 	@echo "... dynamic_reconfigure_generate_messages_eus"
-	@echo "... tb3_demo_camera_gencfg"
+	@echo "... tb3_camera_gencfg"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... tb3_demo_detect_gencfg"
+	@echo "... tb3_detect_gencfg"
 .PHONY : help
 
 
