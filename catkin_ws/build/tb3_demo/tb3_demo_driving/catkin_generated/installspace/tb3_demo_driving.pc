@@ -1,0 +1,8 @@
+prefix=/home/scott/tb3_demo/catkin_ws/install
+
+Name: tb3_demo_driving
+Description: Description of tb3_demo_driving
+Version: 1.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: tb3_demo_msgs

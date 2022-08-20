@@ -1,0 +1,8 @@
+prefix=/home/scott/tb3_demo/catkin_ws/install
+
+Name: tb3_demo_msgs
+Description: Description of tb3_demo_msgs
+Version: 1.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs message_runtime

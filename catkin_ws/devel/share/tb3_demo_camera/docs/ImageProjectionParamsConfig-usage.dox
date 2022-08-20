@@ -1,0 +1,10 @@
+\subsubsection usage Usage
+\verbatim
+<node name="tb3_demo_camera" pkg="tb3_demo_camera" type="tb3_demo_camera">
+  <param name="top_x" type="int" value="72" />
+  <param name="top_y" type="int" value="4" />
+  <param name="bottom_x" type="int" value="115" />
+  <param name="bottom_y" type="int" value="120" />
+</node>
+\endverbatim
+

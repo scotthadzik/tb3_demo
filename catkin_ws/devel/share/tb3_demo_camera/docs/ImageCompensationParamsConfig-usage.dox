@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="tb3_demo_camera" pkg="tb3_demo_camera" type="tb3_demo_camera">
+  <param name="clip_hist_percent" type="double" value="1.0" />
+</node>
+\endverbatim
+

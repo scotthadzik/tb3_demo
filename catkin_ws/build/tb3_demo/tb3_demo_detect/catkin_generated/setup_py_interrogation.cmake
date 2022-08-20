@@ -1,0 +1,7 @@
+set(tb3_demo_detect_SETUP_PY_SETUP_MODULE "distutils.core")
+set(tb3_demo_detect_SETUP_PY_VERSION "1.1.0")
+set(tb3_demo_detect_SETUP_PY_SCRIPTS "")
+set(tb3_demo_detect_SETUP_PY_PACKAGES "tb3_demo_detect")
+set(tb3_demo_detect_SETUP_PY_PACKAGE_DIRS "src/tb3_demo_detect")
+set(tb3_demo_detect_SETUP_PY_MODULES "")
+set(tb3_demo_detect_SETUP_PY_MODULE_DIRS "")
