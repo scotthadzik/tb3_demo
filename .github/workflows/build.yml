@@ -8,7 +8,7 @@ jobs:
         uses: athackst/mkdocs-simple-plugin
         with:
           # (optional) Specify branch 
-          publish_branch: gh-pages 
+          publish_branch: master 
           # (optional) The URL of the repository the docs should point to
           repo_url: https://github.com/scotthadzik/tb3_demo
           # (optional) The name of the site
